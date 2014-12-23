@@ -1,0 +1,29 @@
+/* Main theme */
+html, body{
+background-color:#AC9058;
+}
+
+.navbar-default{
+background-color:#3c2511;
+border:none;
+}
+
+.navbar-default .navbar-nav>li>a {
+color:#fff;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+color:#ccc;
+}
+
+#container{
+margin-top:50px;
+}
+
+.content-container{
+margin-top:50px;
+}
+
+#footer{
+background-color:#3c2511;
+}

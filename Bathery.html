@@ -5,25 +5,37 @@
 		<meta charset="utf-8">
         
 		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-		<style>
-			body {
-				background-color: #000000;
-				margin: 0px;
-				overflow: hidden;
-			}
-      		#hud {
-        		
-       	 		color: #000;
-        		padding: 15px;
-        		position: absolute;
-        		top: 0px;
-      		}
-      		
-		</style>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/itb-theme.css">
 	</head>
 	<body>
-        <div id="hud"> <a href="dd presentation.html">HOME</a> <a href="LIC Top.html">LIC Top</a> <a href="LIC Inside Now.html">LIC Inside Now</a> <a href="LIC Inside Proposed.html">LIC Inside Proposed</a> <a href= "LIC Entrance.html">LIC Entrance</a> <a href= "LIC Back.html">LIC Back</a> <br> <a href= "LIC Temple.html">Temple</a> <a href= "Bathery.html">Bathery</a>
-		</div>
+        <nav id="hud" class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Project name</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="LIC Top.html">LIC Top</a></li>
+                <li><a href="LIC Inside Now.html">LIC Inside Now</a></li>
+                <li><a href="LIC Inside Proposed.html">LIC Inside Proposed</a></li>
+                
+                <li><a href="LIC Entrance.html">LIC Entrance</a></li>
+                <li><a href="LIC Back.html">LIC Back</a></li>
+		 <li><a href="LIC Temple.html">Temple</a></li>
+		 <li class="active"><a href="Bathery.html">Bathery</a></li>
+           
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
         <div id="container"></div>
         <div id="info"></div>
 	
