@@ -72,7 +72,7 @@
 		if (Detector.webgl) {
             this.renderer = new THREE.WebGLRenderer({antialias: false});
         } else {
-            this.renderer = new THREE.CanvasRenderer();
+             window.open("http://get.webgl.org/");
         }
 
 
