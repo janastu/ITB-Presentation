@@ -1,6 +1,8 @@
 /* Main theme */
 html, body{
 background-color:#AC9058;
+text-align:justify;
+font-size:16px;
 }
 
 .navbar-default{
@@ -21,12 +23,30 @@ margin-top:50px;
 }
 
 .content-container{
-  font-size:16px;
 margin-top:50px;
 }
 
 #footer{
 background-color:#3c2511;
 }
+.navList{
+  list-style:none;
+  padding:0px;
+}
 
+.navList li{
+  display:inline;
+}
 
+.btn {
+  border:1px solid #6E5218;
+  background-color:#8A6f37;
+}
+a {
+  color:#3C2A03;
+}
+.thumbnail{
+  background-color:#CEB685;
+  border:1px solid #8A6F37;
+  padding:10px;
+}
